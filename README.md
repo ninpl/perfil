@@ -8,7 +8,7 @@ NUNCA OMITIR / IGNORAR / EVITAR LEERME
 
 <h1 align="center">
   <br>
-    <a href="https://github.com/ninpl/README-Template"><img src="./res/logo.png" alt="LogoRepo" width="100"></a>
+    <a href="https://github.com/ninpl/perfil"><img src="./res/logo.png" alt="LogoRepo" width="100"></a>
       <br>
       README-Template
   <br>
@@ -48,7 +48,7 @@ NUNCA OMITIR / IGNORAR / EVITAR LEERME
 </p>
 
 <p align="center">
-  <em>Ejemplo de lo que se muestra en la imagen/gif de arriba. Compruébalo en <a href="https://github.com/ninpl/README-Template">xx.doc</a>.</em>
+  <em>Ejemplo de lo que se muestra en la imagen/gif de arriba. Compruébalo en <a href="https://github.com/ninpl/perfil">xx.doc</a>.</em>
 </p>
 
 ## :octocat: ‎ <sup><sub><samp>¡HOLA! ¡GRACIAS POR VENIR!</samp></sub></sup>
@@ -66,7 +66,7 @@ CLIC O TOQUE ❲☰❳ PARA VER EL ESPEJO
 
 </div>
 <p align="right">
-  [<a href="https://gitlab.com/ninpl/readme-template">espejo</a>]
+  [<a href="https://gitlab.com/ninpl/perfil.git">espejo</a>]
 </p>
 
 ## <samp>Configuracion</samp>
@@ -74,19 +74,20 @@ CLIC O TOQUE ❲☰❳ PARA VER EL ESPEJO
 Descripción de como usarlo.
 
 ```
-git clone https://github.com/ninpl/README-Template.git
+git clone https://github.com/ninpl/perfil.git
 ```
 
 ## <samp>Dependencias</samp>
 
-| Nombre                                                                                                 | Version                                                              | Licencia |
-|:-----------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------|:------------------------------|
-| [Post-Processing](https://docs.unity3d.com/Packages/com.unity.postprocessing@2.2/manual/Installation.html)                       | 2.2 | [U-P-D-L 1.0](https://unity.com/legal/licenses/unity-package-distribution-license)    |
-| [kevinhong-ffvii](https://www.kevinhong.com/ffvii-church)             | 1.0 | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0)    |
+| Nombre        | Version                         | Licencia |
+|:--------------|:--------------------------------|:------------------------------|
+| [Next.js](https://nextjs.org/) | 13.2.3 | [MIT](https://github.com/vercel/next.js/blob/canary/license.md)  |
+| [Tailwind](https://tailwindcss.com/) | 3.2.7 | [MIT](https://github.com/tailwindlabs/tailwindcss/blob/master/LICENSE.md)  |
+| [Frame Motion](https://www.framer.com/motion/) | 10.2.3 | [MIT](https://github.com/framer/motion/blob/main/LICENSE.md)  |
   
 ## <samp>Descargar</samp>
 
-Puede [descargar](https://github.com/ninpl/README-Template/releases) la última versión instalable de **README-Template**. 
+Puede [descargar](https://github.com/ninpl/perfil/releases) la última versión de **mi perfil**. 
   
 ## <samp>Colaboradores</samp>
 
@@ -96,19 +97,20 @@ Puede [descargar](https://github.com/ninpl/README-Template/releases) la última 
 4. Empuje la rama: `git push origin nueva-funcion`
 5. Envíe una pull request: D
 
-El proyecto esta mantenido por [N9+](https://github.com/ninpl) con ayuda de los colaboradores ([lista](https://github.com/ninpl/README-Template/graphs/contributors)).
+El proyecto esta mantenido por [N9+](https://github.com/ninpl) con ayuda de los colaboradores ([lista](https://github.com/ninpl/perfil/graphs/contributors)).
 
-<a href="https://github.com/ninpl/README-Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ninpl/README-Template" />
+<a href="https://github.com/ninpl/perfil/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ninpl/perfil" />
 </a>
 
 ## <samp>Agradecimientos</samp>
 
 |           |   | Inspiración y Recursos     |         |    Licencia        |
 |:---------:|:-:|:-------------------------------|:--------------------|:----------:|
-|  Imagen | 1 | [Kevin Hong](https://www.kevinhong.com/ffvii-church)  |   |   [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0)         |
-|  contributors-img  | 2 | [Suguru Inatomi](https://github.com/lacolaco)         |   | Sin Licencia |
-|  Shields  | 3 | [Thaddée Tyl](https://github.com/espadrine)         |   | [CC0 LICENSE](https://github.com/badges/shields/blob/master/LICENSE) |
+|  Ayuda | 1 | [Miguel Ángel](https://github.com/midudev)  |   |   |
+|  Inspiración | 2 | [Edu Calvo](https://github.com/educlopez)  |   |   |
+|  contributors-img  | 3 | [Suguru Inatomi](https://github.com/lacolaco)         |   | Sin Licencia |
+|  Shields  | 4 | [Thaddée Tyl](https://github.com/espadrine)    |   | [CC0 LICENSE](https://github.com/badges/shields/blob/master/LICENSE) |
 
 
 ## <samp>Licencia</samp>
