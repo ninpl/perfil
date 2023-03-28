@@ -37,7 +37,7 @@ NUNCA OMITIR / IGNORAR / EVITAR LEERME
       <img src="./res/idioma.png" width="18" height="18">
       <sup>
             Español,
-            <a href="./README.en.md">Ingles</a>,
+            <a href="./README.md">Ingles</a>,
             <a href="./README.md">Chino (中文)</a>
       </sup>
   </sup>
@@ -110,14 +110,11 @@ El proyecto esta mantenido por [N9+](https://github.com/ninpl) con ayuda de los 
 |  contributors-img  | 2 | [Suguru Inatomi](https://github.com/lacolaco)         |   | Sin Licencia |
 |  Shields  | 3 | [Thaddée Tyl](https://github.com/espadrine)         |   | [CC0 LICENSE](https://github.com/badges/shields/blob/master/LICENSE) |
 
-## <samp>Politica de seguridad</samp>
-
-[Leer](./SECURITY.md).
 
 ## <samp>Licencia</samp>
 
 <pre align="center">
-  <a href="https://github.com/ninpl/README-Template/blob/master/LICENSE">MIT</a> • <a href="https://ninpl.com">ninpl.com</a> • <a href="https://github.com/ninpl">@ninpl</a>
+  <a href="https://es.wikipedia.org/wiki/Licencia_de_c%C3%B3digo_abierto">Libre</a> • <a href="https://ninpl.com">ninpl.com</a> • <a href="https://github.com/ninpl">@ninpl</a>
 </pre>
 
 <pre align="center">
