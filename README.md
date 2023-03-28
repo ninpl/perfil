@@ -15,11 +15,14 @@ NUNCA OMITIR / IGNORAR / EVITAR LEERME
 </h1>
 
 <p align="center">
-  <a href="https://unity.com/">
-    <img src="https://img.shields.io/badge/Unity-2019.4%2B-brightgreen" alt="Unity">
+  <a href="https://github.com/vercel/next.js/">
+    <img src="https://img.shields.io/badge/Next.js-13.2%2B-brightgreen" alt="next.js">
   </a>
-  <a href="https://docs.unity3d.com/2019.4/Documentation/Manual/dotnetProfileSupport.html">
-    <img src="https://img.shields.io/badge/.NET-4.x-blue">
+  <a href="https://github.com/tailwindlabs/tailwindcss">
+    <img src="https://img.shields.io/badge/Tailwind-3.2%2B-orange">
+  </a>
+  <a href="https://github.com/framer/motion">
+    <img src="https://img.shields.io/badge/Framer%20Motion-10.2%2B-red">
   </a>
 </p>
 
@@ -83,7 +86,7 @@ git clone https://github.com/ninpl/perfil.git
 |:--------------|:--------------------------------|:------------------------------|
 | [Next.js](https://nextjs.org/) | 13.2.3 | [MIT](https://github.com/vercel/next.js/blob/canary/license.md)  |
 | [Tailwind](https://tailwindcss.com/) | 3.2.7 | [MIT](https://github.com/tailwindlabs/tailwindcss/blob/master/LICENSE.md)  |
-| [Frame Motion](https://www.framer.com/motion/) | 10.2.3 | [MIT](https://github.com/framer/motion/blob/main/LICENSE.md)  |
+| [Framer Motion](https://www.framer.com/motion/) | 10.2.3 | [MIT](https://github.com/framer/motion/blob/main/LICENSE.md)  |
   
 ## <samp>Descargar</samp>
 
