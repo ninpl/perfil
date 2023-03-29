@@ -10,7 +10,7 @@ NUNCA OMITIR / IGNORAR / EVITAR LEERME
   <br>
     <a href="https://github.com/ninpl/perfil"><img src="./res/logo.png" alt="LogoRepo" width="100"></a>
       <br>
-      README-Template
+      Perfil
   <br>
 </h1>
 
