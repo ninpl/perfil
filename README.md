@@ -58,7 +58,20 @@ https://user-images.githubusercontent.com/7427480/228654230-233ae271-d6d8-4226-8
 <img src="./res/info.png" align="right"
      alt="Info" width="200" height="320">
      
-Descripción del proyecto.
+- **Index** : Pagina principal de la web
+- **Proyectos** : Proyectos de codigo abierto (github) y oficiales
+- **Especialidades** : Pagina donde se muestran las especialidades con vinculo
+- **Tema Claro/Oscuro** : Tema para blanco y negro
+- **Github Pinned** : Indexacion de los repositorios pinned en github
+- **Articulos** : 3 primeros articulos que se muestran al inicio
+- **Disponibilidad** : Estado de disponibilidad para trabajos
+
+Esta web esta creada con la tecnologia Next.js (Node.js), Tailwind y Framer Motion.
+
+Tiene algunos errores que no he podido arreglar al momento de crear los archivos estaticos, las rutas se rompen por lo que en la
+postcompilacion he tenido que cambiar algunos links manualmente para lograr que funciones, no soy muy asiduo de esta tecnologia.
+
+Si tienes errores (que los tendras), puedes mirar este issue https://github.com/vercel/next.js/discussions/32217
 
 <div align="center">
 
@@ -73,10 +86,25 @@ CLIC O TOQUE ❲☰❳ PARA VER EL ESPEJO
 
 ## <samp>Configuracion</samp>
 
-Descripción de como usarlo.
-
 ```
 git clone https://github.com/ninpl/perfil.git
+```
+```powershell
+npm install
+```
+Renombrar `ejemplo.env` a `.env` y modificar las variables:
+```
+SITE_URL=
+NEXT_PUBLIC_SITE_URL=
+GITHUB_ACCESS_TOKEN=
+GITHUB_USERNAME=
+```
+```powershell
+npm run dev
+```
+Comprobar `http://localhost:3000`
+```powershell
+npm run build && npm run export
 ```
 
 ## <samp>Dependencias</samp>
