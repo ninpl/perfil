@@ -1,0 +1,56 @@
+import Image from 'next/image'
+import Link from 'next/link'
+import { Briefcase, Download, Scroll } from 'lucide-react'
+import { Button } from '@/components/Button'
+
+import { ArticleLayout } from '@/components/ArticleLayout'
+import coverImg from './cover-img.jpg'
+import img01 from './i01.jpg'
+
+export const meta = {
+  author: 'N9+',
+  date: '2022-06-11',
+  title: 'MVC simplificado',
+  slug: 'mvc-simplificado',
+  tags: ['MVC', 'Arquitectura'],
+  keywords:
+    'programacion, mvc, simplificado',
+  description:
+    'Los programadores principiantes generalmente comienzan a aprender el oficio con el Hello World. A partir de ahí, sin un patrón de diseño, se suele aumentar sin ninguna metodología los proyectos y terminan siendo un caos.',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+<Image
+  className="w-full rounded-md"
+  src={coverImg}
+  alt="Nextjs y Tailwind"
+  placeholder="blur"
+  priority
+/>
+
+Los programadores principiantes generalmente comienzan a aprender el oficio con el Hello World. A partir de ahí, sin un patrón de diseño, se suele aumentar sin ninguna metodología los proyectos y terminan siendo un caos. Cada nuevo desafío lleva a casa una lección importante:
+
+Cuanto más grande es el proyecto, más grande es el espagueti.
+
+<Image
+  className="w-full rounded-md"
+  src={img01}
+  alt="Diseño Limpio"
+  placeholder="blur"
+/>
+
+Es fácil ver que en equipos grandes o pequeños, uno no puede hacer imprudentemente lo que le plazca. El código debe mantenerse y puede durar mucho tiempo. Las empresas para las que ha trabajado no pueden simplemente buscar su información de contacto y preguntarle cada vez que quieren corregir o mejorar la base de código (y tampoco desean que lo hagan).
+
+Es por eso que existen patrones de diseño de software, imponen reglas simples para dictar la estructura general de un proyecto de software. Ayudan a uno o más programadores a separar las piezas principales de un proyecto grande y organizarlas de manera estandarizada, eliminando la confusión cuando se encuentra una parte desconocida de la base de código.
+
+<Button
+    href="https://ninpl.com/posts/2017/dev/014/"
+    variant="solid"
+    className="w-full mt-6 group"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    <Scroll className="w-4 h-4 transition stroke-zinc-600 dark:stroke-zinc-600 group-active:stroke-zinc-900 group-hover:stroke-zinc-900 dark:group-hover:stroke-zinc-100 dark:group-active:stroke-zinc-50" />
+    Seguir leyendo en el blog ...
+</Button>

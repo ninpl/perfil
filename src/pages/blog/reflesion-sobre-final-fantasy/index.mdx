@@ -1,0 +1,58 @@
+import Image from 'next/image'
+import Link from 'next/link'
+import { Briefcase, Download, Scroll } from 'lucide-react'
+import { Button } from '@/components/Button'
+
+import { ArticleLayout } from '@/components/ArticleLayout'
+import coverImg from './cover-img.jpg'
+import img01 from './i01.jpg'
+
+export const meta = {
+  author: 'N9+',
+  date: '2023-03-21',
+  title: 'Reflexión sobre Final Fantasy',
+  slug: 'reflesion-sobre-final-fantasy',
+  tags: ['Final Fantasy', 'Reflexion'],
+  keywords:
+    'videojuego final fantasy, saga square enix, reflexion, ff, final fantasy',
+  description:
+    'Durante la mayor parte de mi vida, nunca pensé seriamente en la serie Final Fantasy , a pesar de los cientos de horas que literalmente he pasado jugando. Siempre tuve dos suposiciones fundamentales con respecto a los personajes femeninos de la serie.',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+<Image
+  className="w-full rounded-md"
+  src={coverImg}
+  alt="Nextjs y Tailwind"
+  placeholder="blur"
+  priority
+/>
+
+Durante la mayor parte de mi vida, nunca pensé seriamente en la serie Final Fantasy , a pesar de los cientos de horas que literalmente he pasado jugando. Siempre tuve dos suposiciones fundamentales con respecto a los personajes femeninos de la serie. En primer lugar, pueden luchar tan bien como los personajes masculinos. En segundo lugar, aunque son muy, muy bonitos, también lo son los personajes masculinos. Como dice en la caja, esto es fantasía. En otras palabras, mi alergia a la misoginia nunca se encendió mientras jugaba a los juegos.
+
+Desde entonces he reconsiderado estas dos suposiciones. Sin embargo, antes de comenzar este ensayo en serio, me gustaría afirmar que no considero que la serie Final Fantasy sea ​​misógina. Sin embargo, hay matices en la representación de los personajes femeninos principales de la serie que me gustaría abordar.
+
+Me gustaría comenzar definiendo mis términos. El feminismo, puro y simple, es la idea de que a los hombres y las mujeres se les debe dar igualdad de oportunidades. Aunque hay algunas diferencias biológicas básicas entre hombres y mujeres que trascienden el tiempo y la cultura, las feministas creen que ni los hombres ni las mujeres, ni ninguna de las intermedias, deben ser juzgados o discriminados simplemente en virtud de su sexo o género.
+
+Las antítesis del feminismo son la misoginia y el sexismo. La misoginia es una actitud de odio hacia las mujeres. Se expresa a través de afirmaciones como “Las mujeres son más débiles que los hombres” o “Las mujeres no pueden hacer [x, y, oz] tan bien como los hombres”. También puede expresarse identificando cualidades negativas con la feminidad, como referirse a Un cobarde como un gatito. La misoginia es un tipo de sexismo, que es una generalización excesiva de los rasgos de carácter basados ​​en el sexo o el género. El sexismo es como el racismo o el egocentrismo; es como decir que “los judíos son buenos con el dinero” o “los franceses llevan ropa de moda”. Los conceptos erróneos sexistas comunes incluyen las ideas de que las mujeres son más espirituales que los hombres, que las mujeres son más artísticas que los hombres, que las mujeres están más en contacto con ellos. Las emociones que los hombres, y que las mujeres tienen redes sociales más fuertes que los hombres.
+
+<Image
+  className="w-full rounded-md"
+  src={img01}
+  alt="Diseño Limpio"
+  placeholder="blur"
+/>
+
+Esto nos lleva a Final Fantasy . ¿La serie promueve puntos de vista sexistas de las mujeres? ¿Proporciona modelos femeninos fuertes para los jugadores que invierten tanto tiempo y energía emocional en la serie? Para abordar estas preguntas, voy a ver tres personajes: Rydia de Final Fantasy IV , Aeris de Final Fantasy VII y Fran de Final Fantasy XII . Usaré estos personajes como ejemplos para defender un cambio en la serie desde un punto de vista centrado en el hombre a un enfoque narrativo más neutral.
+
+<Button
+    href="https://ninpl.com/posts/2019/comun/004/"
+    variant="solid"
+    className="w-full mt-6 group"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    <Scroll className="w-4 h-4 transition stroke-zinc-600 dark:stroke-zinc-600 group-active:stroke-zinc-900 group-hover:stroke-zinc-900 dark:group-hover:stroke-zinc-100 dark:group-active:stroke-zinc-50" />
+    Seguir leyendo en el blog ...
+</Button>

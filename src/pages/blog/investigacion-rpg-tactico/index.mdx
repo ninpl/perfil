@@ -1,0 +1,58 @@
+import Image from 'next/image'
+import Link from 'next/link'
+import { Briefcase, Download, Scroll } from 'lucide-react'
+import { Button } from '@/components/Button'
+
+import { ArticleLayout } from '@/components/ArticleLayout'
+import coverImg from './cover-img.jpg'
+import img01 from './i01.jpg'
+
+export const meta = {
+  author: 'N9+',
+  date: '2020-11-23',
+  title: 'Investigacion RPG Tactico',
+  slug: 'investigacion-rpg-tactico',
+  tags: ['Final Fantasy', 'RPG-Tactico'],
+  keywords:
+    'videojuego final fantasy, saga square enix, rpg, ff, final fantasy',
+  description:
+    'La definición de combate, es aquella situación en la que dos o más personajes interactúan entre sí con el objetivo de reducir al otro. En sí mismo un combate no tiene por qué ser necesariamente la representación directa de un enfrentamiento físico, también puede ser una batalla dialéctica.',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+<Image
+  className="w-full rounded-md"
+  src={coverImg}
+  alt="Nextjs y Tailwind"
+  placeholder="blur"
+  priority
+/>
+
+La definición de combate, es aquella situación en la que dos o más personajes interactúan entre sí con el objetivo de reducir al otro. En sí mismo un combate no tiene por qué ser necesariamente la representación directa de un enfrentamiento físico, también puede ser una batalla dialéctica.
+
+El concepto de turno de combate se puede definir como “sucesión de momentos en los que los personajes actúan, que pueden ser calculado de antemano y no dependen de factores externos o aleatorios que no estén incluidos dentro del propio combate”.
+
+Un combate táctico es una mezcla entre el primer y segundo párrafo.
+
+<Image
+  className="w-full rounded-md"
+  src={img01}
+  alt="Diseño Limpio"
+  placeholder="blur"
+/>
+
+Antes de centrarse en los atributos debemos centrarnos en el sistema de combate y, concretamente, en qué partes del mismo van a ser invariables y cuáles van a depender de los personajes. Por ejemplo, los turnos pueden estar fijados (primero aliados, luego enemigos) o pueden depender de la velocidad de los personajes; en el primer caso será una constante, mientras que en el segundo habría un atributo que afecta al orden del turno (independientemente de si lo llamamos velocidad o no).
+
+Algunas variables que podemos tener en cuenta son: vida máxima, energía (maná o equivalente), orden de turnos, daño infligido (posibilidad de separar según elementos o fuente), daño reducido (porcentaje, logarítmico, etc.), probabilidad de acierto o esquiva, probabilidad de crítico y multiplicador, resistencias elementales, etc… Muchas de ellas pueden no aparecer en ciertos juegos y otras pueden fijarse en diseño, las que resten serán probablemente atributos de los personajes.
+
+<Button
+    href="https://ninpl.com/posts/2017/dev/005/"
+    variant="solid"
+    className="w-full mt-6 group"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    <Scroll className="w-4 h-4 transition stroke-zinc-600 dark:stroke-zinc-600 group-active:stroke-zinc-900 group-hover:stroke-zinc-900 dark:group-hover:stroke-zinc-100 dark:group-active:stroke-zinc-50" />
+    Seguir leyendo en el blog ...
+</Button>
