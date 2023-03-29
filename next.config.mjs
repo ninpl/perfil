@@ -11,10 +11,11 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
+  assetPrefix: '.',
   images: {
     loader: 'akamai',
     unoptimized: true,
-    path: '/',
+    path: '/perfil/',
     remotePatterns: [
       {
         protocol: 'https',
