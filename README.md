@@ -46,12 +46,11 @@ NUNCA OMITIR / IGNORAR / EVITAR LEERME
   </sup>
 </p>
 
-<p align="center">
-  <img src="./res/fondo.png" width=600 alt="Imagen del ejemplo">
-</p>
+
+https://user-images.githubusercontent.com/7427480/228654230-233ae271-d6d8-4226-8353-5f11d9441ba2.mp4
 
 <p align="center">
-  <em>Ejemplo de lo que se muestra en la imagen/gif de arriba. Compruébalo en <a href="https://github.com/ninpl/perfil">xx.doc</a>.</em>
+  <em>Video del layout general. Compruébalo en <a href="https://github.com/ninpl/perfil">xx.doc</a>.</em>
 </p>
 
 ## :octocat: ‎ <sup><sub><samp>¡HOLA! ¡GRACIAS POR VENIR!</samp></sub></sup>
