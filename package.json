@@ -1,5 +1,6 @@
 {
   "name": "nineplus-perfil",
+  "homepage": "https://ninpl.com/perfil/",
   "version": "2.2.0",
   "private": true,
   "scripts": {
