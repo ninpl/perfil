@@ -8,7 +8,7 @@ import {
 
 export const generalLinks = [
   {
-    href: '/n9',
+    href: 'https://ninpl.com/perfil/n9',
     label: 'N9+',
   },
   {
@@ -17,11 +17,11 @@ export const generalLinks = [
     target: '_blank',
   },
   {
-    href: '/proyectos',
+    href: 'https://ninpl.com/perfil/proyectos',
     label: 'Proyectos',
   },
   {
-    href: '/especialidades',
+    href: 'https://ninpl.com/perfil/especialidades',
     label: 'Especialidades',
   }, 
   {

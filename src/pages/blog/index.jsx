@@ -13,7 +13,7 @@ function Article({ article }) {
   return (
     <motion.article className="md:grid md:grid-cols-4 md:items-baseline" layout>
       <Card className="md:col-span-3">
-        <Card.Title href={`/blog/${article.slug}`}>{article.title}</Card.Title>
+        <Card.Title href={`/perfil/blog/${article.slug}`}>{article.title}</Card.Title>
         <Card.Eyebrow
           as="time"
           dateTime={article.date}

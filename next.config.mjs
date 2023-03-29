@@ -4,6 +4,8 @@ import rehypePrettyCode from 'rehype-pretty-code'
 import rehypeSlug from 'rehype-slug'
 import remarkGfm from 'remark-gfm'
 
+const isProd = process.env.NODE_ENV === 'production'
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['jsx', 'mdx'],
@@ -27,7 +29,7 @@ const nextConfig = {
     return [
       {
         source: '/articles/:slug*',
-        destination: '/blog/:slug*', // Matched parameters can be used in the destination
+        destination: 'https://ninpl.com/perfil/blog/:slug*', // Matched parameters can be used in the destination
         permanent: true,
       },
     ]

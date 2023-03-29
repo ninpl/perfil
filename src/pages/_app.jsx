@@ -45,7 +45,6 @@ export default function App({ Component, pageProps, router }) {
             >
               <Component previousPathname={previousPathname} {...pageProps} />
             </motion.div>
-            <Analytics />
           </main>
           <Footer />
         </div>

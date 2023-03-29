@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'lights-sun': "url('/images/gradient.svg')",
+        'lights-sun': "url('https://ninpl.com/perfil/images/gradient.svg')",
       },
     },
     fontSize: {

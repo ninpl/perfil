@@ -24,7 +24,7 @@ function Article({ article }) {
         <br></br>
         {article.tags.map((tag) => (
           <a
-            href="#"
+            href="https://ninpl.com/perfil/blog/"
             key={tag}
             className="inline-block text-zinc-600 before:content-['#'] dark:text-zinc-400"
           >

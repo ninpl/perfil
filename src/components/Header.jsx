@@ -192,7 +192,7 @@ function Avatar({ large = false, className, index, ...props }) {
   let [hoveredIndex, setHoveredIndex] = useState(null)
   return (
     <Link
-      href="/"
+      href="https://ninpl.com/perfil/"
       aria-label="Home"
       className={clsx(className, 'pointer-events-auto')}
       onMouseEnter={() => setHoveredIndex(index)}
@@ -201,7 +201,7 @@ function Avatar({ large = false, className, index, ...props }) {
     >
         <Image
           src={hoveredIndex === index ? avatarImageHover : avatarImage}
-          alt="avatar Eduardo Calvo López"
+          alt="avatar N9+"
           placeholder="blur"
           sizes={large ? '4rem' : '2.25rem'}
           className={clsx(
