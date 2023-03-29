@@ -12,6 +12,9 @@ const nextConfig = {
     scrollRestoration: true,
   },
   images: {
+    loader: 'akamai',
+    unoptimized: true,
+    path: '/',
     remotePatterns: [
       {
         protocol: 'https',
@@ -127,7 +130,17 @@ const withMDX = nextMDX({
         },
       ],
     ],
+    images: {
+      loader: 'akamai',
+      unoptimized: true,
+    },
+    exportPathMap() {
+      return {
+        '/': { page: '/' },
+      }
+    }
   },
 })
+
 
 export default withMDX(nextConfig)
